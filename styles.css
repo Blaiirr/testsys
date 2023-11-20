@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;/*设置字体*/
+    display: flex;/*弹性容器*/
+    align-items: center;/*居中对齐*/
+    justify-content: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+/* 设置表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* 设置表头样式 */
+th {
+    background-color: #f2f2f2;
+}
+
+/* 设置表格边框和单元格样式 */
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* 设置奇偶行的不同背景颜色 */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.result-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
